@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace WIMP_Personas
 {
@@ -96,7 +97,7 @@ namespace WIMP_Personas
         {
             this.Controls.Add(songsDataGridView);
 
-            songsDataGridView.ColumnCount = 5;
+            songsDataGridView.ColumnCount = 4;
 
             songsDataGridView.ColumnHeadersDefaultCellStyle.BackColor = Color.Navy;
             songsDataGridView.ColumnHeadersDefaultCellStyle.ForeColor = Color.White;
@@ -133,17 +134,23 @@ namespace WIMP_Personas
 
         private void PopulateDataGridView()
         {
+            //ListaDados.Text = "";
+            songsDataGridView.Rows.Clear();
 
-            string[] row0 = { "11/22/1968", "29", "Revolution 9",
-            "Beatles"};
-            string[] row1 = { "1960", "6", "Fools Rush In",
-            "Frank Sinatra" };
-            string[] row2 = { "11/11/1971", "1", "One of These Days",
-            "Pink Floyd"};
-            string[] row3 = { "1988", "7", "Where Is My Mind?",
-            "Pixies"};
-            string[] row4 = { "5/1981", "9", "Can't Find My Mind",
-            "Cramps" };
+            string[] arquivo = ManipulaArquivo.ImprimeArquivo();
+
+            foreach (String linha in arquivo)
+            {
+                //ListaDados.Text = ListaDados.Text + linha + "\n";
+                if (linha != null)
+                    songsDataGridView.Rows.Add(linha);
+            }
+
+            /*string[] row0 = { "1960", "6", "Fools Rush In", "Frank Sinatra" };
+            string[] row1 = { "1960", "6", "Fools Rush In","Frank Sinatra" };
+            string[] row2 = { "11/11/1971", "1", "One of These Days","Pink Floyd"};
+            string[] row3 = { "1988", "7", "Where Is My Mind?","Pixies"};
+            string[] row4 = { "5/1981", "9", "Can't Find My Mind","Cramps" };
             string[] row5 = { "6/10/2003", "13","Scatterbrain. (As Dead As Leaves.)","Radiohead"};
             string[] row6 = { "30/06/1992", "3", "Dress", "P J Harvey"};
 
@@ -153,7 +160,7 @@ namespace WIMP_Personas
             songsDataGridView.Rows.Add(row3);
             songsDataGridView.Rows.Add(row4);
             songsDataGridView.Rows.Add(row5);
-            songsDataGridView.Rows.Add(row6);
+            songsDataGridView.Rows.Add(row6);*/
 
             songsDataGridView.Columns[0].DisplayIndex = 0;
             songsDataGridView.Columns[1].DisplayIndex = 1;

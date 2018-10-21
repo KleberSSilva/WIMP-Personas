@@ -30,8 +30,8 @@ namespace WIMP_Personas
 
             StreamWriter streamW = new StreamWriter(_file, true);
             //Criamos um novo objeto do tipo StreamWriter, passamos o nome do nosso arquivo.
-             
-            streamW.WriteLine("Site: " + conteudo + " | Assunto: " + assunto + "| Tipo Conteudo: " + tipoConteudo + "| Data: "+ data);
+
+            streamW.WriteLine(conteudo + "," + assunto + "," + tipoConteudo + ","+ data);
             //Através do objeto streamW acessamos o método WriteLine 
             //e passamos os textos que queremos gravar.             
             streamW.Close();
