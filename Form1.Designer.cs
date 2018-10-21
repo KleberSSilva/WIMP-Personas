@@ -54,14 +54,16 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.BtnGuardar = new System.Windows.Forms.Button();
             this.dataGridListaFavoritos = new System.Windows.Forms.DataGridView();
-            this.bDFavoritosDataSet = new WIMP_Personas.BDFavoritosDataSet();
-            this.tblFavoritosBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.tblFavoritosTableAdapter = new WIMP_Personas.BDFavoritosDataSetTableAdapters.tblFavoritosTableAdapter();
             this.iDFavoritoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.linkConteudoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.assuntoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tipoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tblFavoritosBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.bDFavoritosDataSet = new WIMP_Personas.BDFavoritosDataSet();
+            this.tblFavoritosTableAdapter = new WIMP_Personas.BDFavoritosDataSetTableAdapters.tblFavoritosTableAdapter();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -70,8 +72,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridListaFavoritos)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bDFavoritosDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tblFavoritosBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bDFavoritosDataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // TxtConteudo
@@ -382,25 +384,11 @@
             this.tipoDataGridViewTextBoxColumn,
             this.dataDataGridViewTextBoxColumn});
             this.dataGridListaFavoritos.DataSource = this.tblFavoritosBindingSource;
-            this.dataGridListaFavoritos.Location = new System.Drawing.Point(40, 400);
+            this.dataGridListaFavoritos.Location = new System.Drawing.Point(40, 450);
             this.dataGridListaFavoritos.Name = "dataGridListaFavoritos";
             this.dataGridListaFavoritos.ReadOnly = true;
-            this.dataGridListaFavoritos.Size = new System.Drawing.Size(544, 150);
+            this.dataGridListaFavoritos.Size = new System.Drawing.Size(544, 100);
             this.dataGridListaFavoritos.TabIndex = 14;
-            // 
-            // bDFavoritosDataSet
-            // 
-            this.bDFavoritosDataSet.DataSetName = "BDFavoritosDataSet";
-            this.bDFavoritosDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // tblFavoritosBindingSource
-            // 
-            this.tblFavoritosBindingSource.DataMember = "tblFavoritos";
-            this.tblFavoritosBindingSource.DataSource = this.bDFavoritosDataSet;
-            // 
-            // tblFavoritosTableAdapter
-            // 
-            this.tblFavoritosTableAdapter.ClearBeforeFill = true;
             // 
             // iDFavoritoDataGridViewTextBoxColumn
             // 
@@ -437,11 +425,47 @@
             this.dataDataGridViewTextBoxColumn.Name = "dataDataGridViewTextBoxColumn";
             this.dataDataGridViewTextBoxColumn.ReadOnly = true;
             // 
+            // tblFavoritosBindingSource
+            // 
+            this.tblFavoritosBindingSource.DataMember = "tblFavoritos";
+            this.tblFavoritosBindingSource.DataSource = this.bDFavoritosDataSet;
+            // 
+            // bDFavoritosDataSet
+            // 
+            this.bDFavoritosDataSet.DataSetName = "BDFavoritosDataSet";
+            this.bDFavoritosDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // tblFavoritosTableAdapter
+            // 
+            this.tblFavoritosTableAdapter.ClearBeforeFill = true;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(40, 422);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(221, 22);
+            this.textBox1.TabIndex = 15;
+            this.textBox1.Tag = "";
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(37, 403);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(60, 16);
+            this.label2.TabIndex = 16;
+            this.label2.Text = "Buscar:";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(933, 550);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.dataGridListaFavoritos);
             this.Controls.Add(this.BtnSair);
             this.Controls.Add(this.ListaDados);
@@ -468,8 +492,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridListaFavoritos)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bDFavoritosDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tblFavoritosBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bDFavoritosDataSet)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -508,6 +532,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn assuntoDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn tipoDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataDataGridViewTextBoxColumn;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label2;
     }
 }
 

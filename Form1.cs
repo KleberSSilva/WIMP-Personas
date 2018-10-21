@@ -184,8 +184,7 @@ namespace WIMP_Personas
             TxtConteudo.Text = "http://";
             TxtAssunto.Text = null;
             txtTipoSelecionado.Text = null;
-
-
+            
             //(favoritos.getLinkConteudo(), favoritos.getAssunto());
             Favoritos favoritos;
             favoritos = new Favoritos(TxtConteudo.Text, TxtAssunto.Text, txtTipoSelecionado.Text, DateTime.Now);
@@ -199,9 +198,12 @@ namespace WIMP_Personas
             ManipulaArquivo.writeData(TxtConteudo.Text, TxtAssunto.Text, txtTipoSelecionado.Text, DateTime.Now);
 
             // Exibe uma mensagem informando que os dados foram gravados.
-            
-            //ListaDados.Text = "Dados gravados com sucesso!!!";   
-            
+
+            //ListaDados.Text = "Dados gravados com sucesso!!!";
+
+            TxtConteudo.Text = "http://";
+            TxtAssunto.Text = null;
+            txtTipoSelecionado.Text = null;
         }
 
         private void RbVideo_CheckedChanged(object sender, EventArgs e)
@@ -267,10 +269,16 @@ namespace WIMP_Personas
 
         }
 
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
         /*private void Form1_Load(object sender, EventArgs e)
         {
             // TODO: esta linha de código carrega dados na tabela 'bDFavoritosDataSet.tblFavoritos'. Você pode movê-la ou removê-la conforme necessário.
             this.tblFavoritosTableAdapter.Fill(this.bDFavoritosDataSet.tblFavoritos);
+            //outro comentário
         }*/
     }
 }
