@@ -1,0 +1,11 @@
+C:\Users\klebe\Google Drive\PUC\Sistemas de Informação\5º Periodo\IHC\Trabalho Personas - Modulo 01\WIMP Personas - Rev.05\WIMP Personas\WIMP Personas\bin\Debug\BDFavoritos.accdb
+C:\Users\klebe\Google Drive\PUC\Sistemas de Informação\5º Periodo\IHC\Trabalho Personas - Modulo 01\WIMP Personas - Rev.05\WIMP Personas\WIMP Personas\bin\Debug\WIMP Personas.exe.config
+C:\Users\klebe\Google Drive\PUC\Sistemas de Informação\5º Periodo\IHC\Trabalho Personas - Modulo 01\WIMP Personas - Rev.05\WIMP Personas\WIMP Personas\bin\Debug\WIMP Personas.exe
+C:\Users\klebe\Google Drive\PUC\Sistemas de Informação\5º Periodo\IHC\Trabalho Personas - Modulo 01\WIMP Personas - Rev.05\WIMP Personas\WIMP Personas\bin\Debug\WIMP Personas.pdb
+C:\Users\klebe\Google Drive\PUC\Sistemas de Informação\5º Periodo\IHC\Trabalho Personas - Modulo 01\WIMP Personas - Rev.05\WIMP Personas\WIMP Personas\obj\Debug\WIMP_Personas.Form1.resources
+C:\Users\klebe\Google Drive\PUC\Sistemas de Informação\5º Periodo\IHC\Trabalho Personas - Modulo 01\WIMP Personas - Rev.05\WIMP Personas\WIMP Personas\obj\Debug\WIMP_Personas.Properties.Resources.resources
+C:\Users\klebe\Google Drive\PUC\Sistemas de Informação\5º Periodo\IHC\Trabalho Personas - Modulo 01\WIMP Personas - Rev.05\WIMP Personas\WIMP Personas\obj\Debug\WIMP Personas-IHC.csproj.GenerateResource.Cache
+C:\Users\klebe\Google Drive\PUC\Sistemas de Informação\5º Periodo\IHC\Trabalho Personas - Modulo 01\WIMP Personas - Rev.05\WIMP Personas\WIMP Personas\obj\Debug\WIMP Personas-IHC.csproj.CoreCompileInputs.cache
+C:\Users\klebe\Google Drive\PUC\Sistemas de Informação\5º Periodo\IHC\Trabalho Personas - Modulo 01\WIMP Personas - Rev.05\WIMP Personas\WIMP Personas\obj\Debug\WIMP Personas.exe
+C:\Users\klebe\Google Drive\PUC\Sistemas de Informação\5º Periodo\IHC\Trabalho Personas - Modulo 01\WIMP Personas - Rev.05\WIMP Personas\WIMP Personas\obj\Debug\WIMP Personas.pdb
+C:\Users\klebe\Google Drive\PUC\Sistemas de Informação\5º Periodo\IHC\Trabalho Personas - Modulo 01\WIMP Personas - Rev.05\WIMP Personas\WIMP Personas\obj\Debug\WIMP Personas-IHC.csprojResolveAssemblyReference.cache

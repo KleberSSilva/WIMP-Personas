@@ -1,0 +1,1 @@
+Um arquivo de texto será criado na pasta C:\Users\Public\Downloads\preferencias.txt
