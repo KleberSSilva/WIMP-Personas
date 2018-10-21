@@ -114,12 +114,11 @@ namespace WIMP_Personas
             songsDataGridView.GridColor = Color.Black;
             songsDataGridView.RowHeadersVisible = false;
 
-            songsDataGridView.Columns[0].Name = "Release Date";
-            songsDataGridView.Columns[1].Name = "Track";
-            songsDataGridView.Columns[2].Name = "Title";
-            songsDataGridView.Columns[3].Name = "Artist";
-            songsDataGridView.Columns[4].Name = "Album";
-            songsDataGridView.Columns[4].DefaultCellStyle.Font =
+            songsDataGridView.Columns[0].Name = "Web Site";
+            songsDataGridView.Columns[1].Name = "Assunto";
+            songsDataGridView.Columns[2].Name = "Tipo do Conteúdo";
+            songsDataGridView.Columns[3].Name = "Data de Consulta";
+            songsDataGridView.Columns[3].DefaultCellStyle.Font =
                 new Font(songsDataGridView.DefaultCellStyle.Font, FontStyle.Italic);
 
             songsDataGridView.SelectionMode =
@@ -136,19 +135,17 @@ namespace WIMP_Personas
         {
 
             string[] row0 = { "11/22/1968", "29", "Revolution 9",
-            "Beatles", "The Beatles [White Album]" };
+            "Beatles"};
             string[] row1 = { "1960", "6", "Fools Rush In",
-            "Frank Sinatra", "Nice 'N' Easy" };
+            "Frank Sinatra" };
             string[] row2 = { "11/11/1971", "1", "One of These Days",
-            "Pink Floyd", "Meddle" };
+            "Pink Floyd"};
             string[] row3 = { "1988", "7", "Where Is My Mind?",
-            "Pixies", "Surfer Rosa" };
+            "Pixies"};
             string[] row4 = { "5/1981", "9", "Can't Find My Mind",
-            "Cramps", "Psychedelic Jungle" };
-            string[] row5 = { "6/10/2003", "13",
-            "Scatterbrain. (As Dead As Leaves.)",
-            "Radiohead", "Hail to the Thief" };
-            string[] row6 = { "30/06/1992", "3", "Dress", "P J Harvey", "Dry" };
+            "Cramps" };
+            string[] row5 = { "6/10/2003", "13","Scatterbrain. (As Dead As Leaves.)","Radiohead"};
+            string[] row6 = { "30/06/1992", "3", "Dress", "P J Harvey"};
 
             songsDataGridView.Rows.Add(row0);
             songsDataGridView.Rows.Add(row1);
@@ -158,11 +155,10 @@ namespace WIMP_Personas
             songsDataGridView.Rows.Add(row5);
             songsDataGridView.Rows.Add(row6);
 
-            songsDataGridView.Columns[0].DisplayIndex = 3;
-            songsDataGridView.Columns[1].DisplayIndex = 4;
-            songsDataGridView.Columns[2].DisplayIndex = 0;
-            songsDataGridView.Columns[3].DisplayIndex = 1;
-            songsDataGridView.Columns[4].DisplayIndex = 2;
+            songsDataGridView.Columns[0].DisplayIndex = 0;
+            songsDataGridView.Columns[1].DisplayIndex = 1;
+            songsDataGridView.Columns[2].DisplayIndex = 2;
+            songsDataGridView.Columns[3].DisplayIndex = 3;
         }
     }
         //[STAThreadAttribute()]

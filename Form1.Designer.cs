@@ -342,7 +342,7 @@
             this.btnRelatorio.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.btnRelatorio.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRelatorio.ForeColor = System.Drawing.Color.Green;
-            this.btnRelatorio.Location = new System.Drawing.Point(745, 58);
+            this.btnRelatorio.Location = new System.Drawing.Point(784, 105);
             this.btnRelatorio.Name = "btnRelatorio";
             this.btnRelatorio.Size = new System.Drawing.Size(113, 86);
             this.btnRelatorio.TabIndex = 17;
