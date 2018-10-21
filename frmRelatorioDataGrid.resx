@@ -117,41 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Music Icone" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Music Icone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Noticias3 Icone" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Noticias3 Icone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Video" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Video.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Noticias2 Icone" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Noticias2 Icone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Artigo Icone" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Artigo Icone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Outros Icone" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Outros Icone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="logout256_24927" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logout256_24927.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icone-da-pasta-de-download_7253-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icone-da-pasta-de-download_7253-2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Gravar icone" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Gravar icone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Logo-png" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Logo-png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Noticias Icone" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Noticias Icone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icone-da-pasta-de-download_7253-21" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icone-da-pasta-de-download_7253-21.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>

@@ -9,3 +9,15 @@ C:\Users\klebe\Google Drive\PUC\Sistemas de Informação\5º Periodo\IHC\Trabalh
 C:\Users\klebe\Google Drive\PUC\Sistemas de Informação\5º Periodo\IHC\Trabalho Personas - Modulo 01\WIMP Personas - Rev.05\WIMP Personas\WIMP Personas\obj\Debug\WIMP Personas.exe
 C:\Users\klebe\Google Drive\PUC\Sistemas de Informação\5º Periodo\IHC\Trabalho Personas - Modulo 01\WIMP Personas - Rev.05\WIMP Personas\WIMP Personas\obj\Debug\WIMP Personas.pdb
 C:\Users\klebe\Google Drive\PUC\Sistemas de Informação\5º Periodo\IHC\Trabalho Personas - Modulo 01\WIMP Personas - Rev.05\WIMP Personas\WIMP Personas\obj\Debug\WIMP Personas-IHC.csprojResolveAssemblyReference.cache
+C:\Users\klebe\source\repos\KleberSSilva\WIMP-Personas\bin\Debug\BDFavoritos.accdb
+C:\Users\klebe\source\repos\KleberSSilva\WIMP-Personas\bin\Debug\WIMP Personas.exe.config
+C:\Users\klebe\source\repos\KleberSSilva\WIMP-Personas\bin\Debug\WIMP Personas.exe
+C:\Users\klebe\source\repos\KleberSSilva\WIMP-Personas\bin\Debug\WIMP Personas.pdb
+C:\Users\klebe\source\repos\KleberSSilva\WIMP-Personas\obj\Debug\WIMP Personas-IHC.csprojAssemblyReference.cache
+C:\Users\klebe\source\repos\KleberSSilva\WIMP-Personas\obj\Debug\WIMP_Personas.Form1.resources
+C:\Users\klebe\source\repos\KleberSSilva\WIMP-Personas\obj\Debug\WIMP_Personas.Properties.Resources.resources
+C:\Users\klebe\source\repos\KleberSSilva\WIMP-Personas\obj\Debug\WIMP Personas-IHC.csproj.GenerateResource.cache
+C:\Users\klebe\source\repos\KleberSSilva\WIMP-Personas\obj\Debug\WIMP Personas-IHC.csproj.CoreCompileInputs.cache
+C:\Users\klebe\source\repos\KleberSSilva\WIMP-Personas\obj\Debug\WIMP Personas.exe
+C:\Users\klebe\source\repos\KleberSSilva\WIMP-Personas\obj\Debug\WIMP Personas.pdb
+C:\Users\klebe\source\repos\KleberSSilva\WIMP-Personas\obj\Debug\WIMP_Personas.frmRelatorioDataGrid.resources

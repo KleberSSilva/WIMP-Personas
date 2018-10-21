@@ -34,12 +34,7 @@
             this.lblConteudo = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txtTipoSelecionado = new System.Windows.Forms.TextBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.RbOutros = new System.Windows.Forms.RadioButton();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.RbNoticia = new System.Windows.Forms.RadioButton();
             this.RbArtigo = new System.Windows.Forms.RadioButton();
             this.RbMusica = new System.Windows.Forms.RadioButton();
@@ -49,10 +44,6 @@
             this.ListaFavoritos = new System.Windows.Forms.ListBox();
             this.label3 = new System.Windows.Forms.Label();
             this.ListaDados = new System.Windows.Forms.Label();
-            this.BtnSair = new System.Windows.Forms.Button();
-            this.BtnImprimir = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.BtnGuardar = new System.Windows.Forms.Button();
             this.dataGridListaFavoritos = new System.Windows.Forms.DataGridView();
             this.iDFavoritoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.linkConteudoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -64,16 +55,26 @@
             this.tblFavoritosTableAdapter = new WIMP_Personas.BDFavoritosDataSetTableAdapters.tblFavoritosTableAdapter();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.btnRelatorio = new System.Windows.Forms.Button();
+            this.BtnSair = new System.Windows.Forms.Button();
+            this.BtnImprimir = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.BtnGuardar = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridListaFavoritos)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tblFavoritosBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bDFavoritosDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridListaFavoritos)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tblFavoritosBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bDFavoritosDataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // TxtConteudo
@@ -129,17 +130,6 @@
             this.txtTipoSelecionado.Tag = "";
             this.txtTipoSelecionado.Visible = false;
             // 
-            // pictureBox6
-            // 
-            this.pictureBox6.BackgroundImage = global::WIMP_Personas.Properties.Resources.Outros_Icone;
-            this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox6.Location = new System.Drawing.Point(677, 26);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(31, 20);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 15;
-            this.pictureBox6.TabStop = false;
-            // 
             // RbOutros
             // 
             this.RbOutros.AutoSize = true;
@@ -151,50 +141,6 @@
             this.RbOutros.Text = "Outros";
             this.RbOutros.UseVisualStyleBackColor = true;
             this.RbOutros.CheckedChanged += new System.EventHandler(this.RbOutros_CheckedChanged);
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.BackgroundImage = global::WIMP_Personas.Properties.Resources.Noticias3_Icone;
-            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox5.Location = new System.Drawing.Point(543, 26);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(26, 20);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 13;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackgroundImage = global::WIMP_Personas.Properties.Resources.Artigo_Icone;
-            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox4.Location = new System.Drawing.Point(406, 26);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(26, 20);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 12;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackgroundImage = global::WIMP_Personas.Properties.Resources.Music_Icone;
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.Location = new System.Drawing.Point(213, 26);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(26, 20);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 11;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackgroundImage = global::WIMP_Personas.Properties.Resources.Video;
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(81, 26);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(26, 20);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 10;
-            this.pictureBox2.TabStop = false;
             // 
             // RbNoticia
             // 
@@ -296,82 +242,6 @@
             this.ListaDados.Size = new System.Drawing.Size(0, 20);
             this.ListaDados.TabIndex = 13;
             // 
-            // BtnSair
-            // 
-            this.BtnSair.AccessibleName = "Guardar Favoritos";
-            this.BtnSair.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.BtnSair.BackgroundImage = global::WIMP_Personas.Properties.Resources.logout256_24927;
-            this.BtnSair.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnSair.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.BtnSair.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSair.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.BtnSair.Location = new System.Drawing.Point(839, 450);
-            this.BtnSair.Name = "BtnSair";
-            this.BtnSair.Size = new System.Drawing.Size(58, 56);
-            this.BtnSair.TabIndex = 11;
-            this.BtnSair.Text = "Sair";
-            this.BtnSair.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.BtnSair.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.BtnSair.UseVisualStyleBackColor = false;
-            this.BtnSair.Click += new System.EventHandler(this.BtnSair_Click);
-            // 
-            // BtnImprimir
-            // 
-            this.BtnImprimir.AccessibleDescription = "";
-            this.BtnImprimir.AccessibleName = "Guardar Favoritos";
-            this.BtnImprimir.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.BtnImprimir.BackgroundImage = global::WIMP_Personas.Properties.Resources.icone_da_pasta_de_download_7253_2;
-            this.BtnImprimir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnImprimir.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.BtnImprimir.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnImprimir.ForeColor = System.Drawing.Color.Blue;
-            this.BtnImprimir.Location = new System.Drawing.Point(762, 326);
-            this.BtnImprimir.Name = "BtnImprimir";
-            this.BtnImprimir.Size = new System.Drawing.Size(71, 61);
-            this.BtnImprimir.TabIndex = 9;
-            this.BtnImprimir.Tag = "";
-            this.BtnImprimir.Text = "Carregar";
-            this.BtnImprimir.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.BtnImprimir.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.BtnImprimir.UseVisualStyleBackColor = false;
-            this.BtnImprimir.Click += new System.EventHandler(this.BtnImprimir_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::WIMP_Personas.Properties.Resources.Logo_png;
-            this.pictureBox1.Location = new System.Drawing.Point(295, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(340, 80);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 7;
-            this.pictureBox1.TabStop = false;
-            // 
-            // BtnGuardar
-            // 
-            this.BtnGuardar.AccessibleName = "Guardar Favoritos";
-            this.BtnGuardar.AllowDrop = true;
-            this.BtnGuardar.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.BtnGuardar.BackgroundImage = global::WIMP_Personas.Properties.Resources.Gravar_icone;
-            this.BtnGuardar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnGuardar.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.BtnGuardar.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnGuardar.ForeColor = System.Drawing.Color.Green;
-            this.BtnGuardar.Location = new System.Drawing.Point(762, 216);
-            this.BtnGuardar.Name = "BtnGuardar";
-            this.BtnGuardar.Size = new System.Drawing.Size(71, 64);
-            this.BtnGuardar.TabIndex = 8;
-            this.BtnGuardar.Text = "Salvar";
-            this.BtnGuardar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.BtnGuardar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.BtnGuardar.UseVisualStyleBackColor = false;
-            this.BtnGuardar.Click += new System.EventHandler(this.Button1_Click);
-            // 
             // dataGridListaFavoritos
             // 
             this.dataGridListaFavoritos.AllowUserToOrderColumns = true;
@@ -459,11 +329,165 @@
             this.label2.TabIndex = 16;
             this.label2.Text = "Buscar:";
             // 
+            // btnRelatorio
+            // 
+            this.btnRelatorio.AccessibleName = "Guardar Favoritos";
+            this.btnRelatorio.AllowDrop = true;
+            this.btnRelatorio.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnRelatorio.BackgroundImage = global::WIMP_Personas.Properties.Resources.icone_da_pasta_de_download_7253_21;
+            this.btnRelatorio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnRelatorio.DialogResult = System.Windows.Forms.DialogResult.OK;
+            this.btnRelatorio.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRelatorio.ForeColor = System.Drawing.Color.Green;
+            this.btnRelatorio.Location = new System.Drawing.Point(745, 58);
+            this.btnRelatorio.Name = "btnRelatorio";
+            this.btnRelatorio.Size = new System.Drawing.Size(113, 86);
+            this.btnRelatorio.TabIndex = 17;
+            this.btnRelatorio.Text = "Relatório";
+            this.btnRelatorio.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnRelatorio.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnRelatorio.UseVisualStyleBackColor = false;
+            this.btnRelatorio.Click += new System.EventHandler(this.btnRelatorio_Click);
+            // 
+            // BtnSair
+            // 
+            this.BtnSair.AccessibleName = "Guardar Favoritos";
+            this.BtnSair.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.BtnSair.BackgroundImage = global::WIMP_Personas.Properties.Resources.logout256_24927;
+            this.BtnSair.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnSair.DialogResult = System.Windows.Forms.DialogResult.OK;
+            this.BtnSair.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnSair.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.BtnSair.Location = new System.Drawing.Point(839, 450);
+            this.BtnSair.Name = "BtnSair";
+            this.BtnSair.Size = new System.Drawing.Size(58, 56);
+            this.BtnSair.TabIndex = 11;
+            this.BtnSair.Text = "Sair";
+            this.BtnSair.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnSair.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.BtnSair.UseVisualStyleBackColor = false;
+            this.BtnSair.Click += new System.EventHandler(this.BtnSair_Click);
+            // 
+            // BtnImprimir
+            // 
+            this.BtnImprimir.AccessibleDescription = "";
+            this.BtnImprimir.AccessibleName = "Guardar Favoritos";
+            this.BtnImprimir.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.BtnImprimir.BackgroundImage = global::WIMP_Personas.Properties.Resources.icone_da_pasta_de_download_7253_2;
+            this.BtnImprimir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnImprimir.DialogResult = System.Windows.Forms.DialogResult.OK;
+            this.BtnImprimir.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnImprimir.ForeColor = System.Drawing.Color.Blue;
+            this.BtnImprimir.Location = new System.Drawing.Point(762, 326);
+            this.BtnImprimir.Name = "BtnImprimir";
+            this.BtnImprimir.Size = new System.Drawing.Size(71, 61);
+            this.BtnImprimir.TabIndex = 9;
+            this.BtnImprimir.Tag = "";
+            this.BtnImprimir.Text = "Carregar";
+            this.BtnImprimir.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnImprimir.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.BtnImprimir.UseVisualStyleBackColor = false;
+            this.BtnImprimir.Click += new System.EventHandler(this.BtnImprimir_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::WIMP_Personas.Properties.Resources.Logo_png;
+            this.pictureBox1.Location = new System.Drawing.Point(295, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(340, 80);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 7;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.BackgroundImage = global::WIMP_Personas.Properties.Resources.Outros_Icone;
+            this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox6.Location = new System.Drawing.Point(677, 26);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(31, 20);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 15;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackgroundImage = global::WIMP_Personas.Properties.Resources.Noticias3_Icone;
+            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox5.Location = new System.Drawing.Point(543, 26);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(26, 20);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 13;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackgroundImage = global::WIMP_Personas.Properties.Resources.Artigo_Icone;
+            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox4.Location = new System.Drawing.Point(406, 26);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(26, 20);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 12;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackgroundImage = global::WIMP_Personas.Properties.Resources.Music_Icone;
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox3.Location = new System.Drawing.Point(213, 26);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(26, 20);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 11;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = global::WIMP_Personas.Properties.Resources.Video;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Location = new System.Drawing.Point(81, 26);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(26, 20);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 10;
+            this.pictureBox2.TabStop = false;
+            // 
+            // BtnGuardar
+            // 
+            this.BtnGuardar.AccessibleName = "Guardar Favoritos";
+            this.BtnGuardar.AllowDrop = true;
+            this.BtnGuardar.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.BtnGuardar.BackgroundImage = global::WIMP_Personas.Properties.Resources.Gravar_icone;
+            this.BtnGuardar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnGuardar.DialogResult = System.Windows.Forms.DialogResult.OK;
+            this.BtnGuardar.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnGuardar.ForeColor = System.Drawing.Color.Green;
+            this.BtnGuardar.Location = new System.Drawing.Point(762, 216);
+            this.BtnGuardar.Name = "BtnGuardar";
+            this.BtnGuardar.Size = new System.Drawing.Size(71, 64);
+            this.BtnGuardar.TabIndex = 8;
+            this.BtnGuardar.Text = "Salvar";
+            this.BtnGuardar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnGuardar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.BtnGuardar.UseVisualStyleBackColor = false;
+            this.BtnGuardar.Click += new System.EventHandler(this.Button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(933, 550);
+            this.Controls.Add(this.btnRelatorio);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.dataGridListaFavoritos);
@@ -480,20 +504,21 @@
             this.Controls.Add(this.TxtConteudo);
             this.Controls.Add(this.BtnGuardar);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "Form1";
+            this.ShowInTaskbar = false;
             this.Text = "App Favoritos";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridListaFavoritos)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tblFavoritosBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bDFavoritosDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridListaFavoritos)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tblFavoritosBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bDFavoritosDataSet)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -534,6 +559,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataDataGridViewTextBoxColumn;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnRelatorio;
     }
 }
 
