@@ -16,7 +16,7 @@ namespace WIMP_Personas
         //{
         private Panel buttonPanel = new Panel();
         private DataGridView songsDataGridView = new DataGridView();
-        private Button addNewRowButton = new Button();
+        //private Button addNewRowButton = new Button();
         private Button deleteRowButton = new Button();
 
         public frmRelatorioDataGrid()
@@ -76,15 +76,15 @@ namespace WIMP_Personas
         {
             this.Size = new Size(600, 500);
 
-            addNewRowButton.Text = "Add Row";
-            addNewRowButton.Location = new Point(10, 10);
-            addNewRowButton.Click += new EventHandler(addNewRowButton_Click);
+            //addNewRowButton.Text = "Add Row";
+            //addNewRowButton.Location = new Point(10, 10);
+            //addNewRowButton.Click += new EventHandler(addNewRowButton_Click);
 
             deleteRowButton.Text = "Delete Row";
             deleteRowButton.Location = new Point(100, 10);
             deleteRowButton.Click += new EventHandler(deleteRowButton_Click);
 
-            buttonPanel.Controls.Add(addNewRowButton);
+            //buttonPanel.Controls.Add(addNewRowButton);
             buttonPanel.Controls.Add(deleteRowButton);
             buttonPanel.Height = 50;
             buttonPanel.Dock = DockStyle.Bottom;

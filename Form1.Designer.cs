@@ -331,6 +331,7 @@
             // 
             // btnRelatorio
             // 
+            this.btnRelatorio.AccessibleDescription = "Relatório";
             this.btnRelatorio.AccessibleName = "Guardar Favoritos";
             this.btnRelatorio.AllowDrop = true;
             this.btnRelatorio.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
