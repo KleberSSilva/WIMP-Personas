@@ -48,13 +48,16 @@ namespace WIMP_Personas
             string[] text = null;
             string[] linhas = null;
             try
-            {
-                linhas = new string[30];
+            {                
                 FileStream arquivo = new FileStream(@"C:/Users/Public/Downloads/preferencias.txt", FileMode.Open);
+                
+
                 leitor = new StreamReader(arquivo);
                 //le os dados do arquivo e armazena na variavel
 
                 string linha = leitor.ReadLine();
+                //linhas = new string[System.IO.File.ReadAllLines(@"C:/Users/Public/Downloads/preferencias.txt").Length];
+                linhas = new string[linha.Length];
 
                 while (linha != null && linha.Length != 0)
                 {
