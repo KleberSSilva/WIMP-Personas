@@ -141,9 +141,11 @@ namespace WIMP_Personas
 
             foreach (String linha in arquivo)
             {
+                string row = linha;
                 //ListaDados.Text = ListaDados.Text + linha + "\n";
                 if (linha != null)
-                    songsDataGridView.Rows.Add(linha);
+                    
+                    songsDataGridView.Rows.Add(row);
             }
 
             /*string[] row0 = { "1960", "6", "Fools Rush In", "Frank Sinatra" };
